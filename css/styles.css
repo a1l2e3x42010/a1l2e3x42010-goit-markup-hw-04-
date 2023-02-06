@@ -229,6 +229,31 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+/* Social Icons */
+.social-icon {
+fill: var(--slate-color);
+}
+
+.social-items {
+display: flex;
+margin-top: 16px;
+gap: 24px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.team-social-link {
+  background: var(--iris-color);
+}
+
+
 /* Section - Portfolio */
 /* Filter */
 .filter-btn {
